@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Demo website | tata cars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+    <audio src="WhatsApp Audio 2024-07-29 at 16.10.37_0dd1f99e.mp3" autoplay hidden loop></audio>
+    <nav>
+      <div class="wrapper">
+        <div class="logo"><a href="#"><img src="1.png" class="logo1"></a></div>
+        <input type="radio" name="slider" id="menu-btn">
+        <input type="radio" name="slider" id="close-btn">
+        <ul class="nav-links">
+          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+          <li class="main"><a href="#">Home</a></li>
+          <li class="main"><a href="#carzone" >Car Zone</a></li>
+          <li class="main"><a href="#about">About</a></li>
+          <li  class="main">
+            <a href="#" class="desktop-item main">Quick Links</a>
+            <input type="checkbox" id="showDrop">
+            <label for="showDrop" class="mobile-item"></label>
+            <ul class="drop-menu">
+              <li><a href="#">Locate Nearby Showroom</a></li>
+              <li><a href="#">Explore Car Arena</a></li>
+              <li><a href="#">Easy Finance Options</a></li>
+              <li><a href="#">Genuine Accessories</a></li>
+              <li><a href="#"><b>Join Off-roaders gang</b></a></li>
+            </ul>
+          </li>
+          <li  class="main">
+            <a href="#" class="desktop-item">Showroom</a>
+            <input type="checkbox" id="showMega">
+            <label for="showMega" class="mobile-item">Mega Menu</label>
+            <div class="mega-box">
+              <div class="content">
+                <div class="row">
+                  <img src="1.png" alt="">
+                  
+                  
+                  
+                </div>
+                <div class="row">
+                  <header>Latest Arivals</header>
+                  <ul class="mega-links">
+                    <li><a href="#">The all new all terrain SUV</a>
+                      <img src="2.png" alt=""></li>
+                    <li><a href="#">Match less Power </a>
+                      <img src="3.png" alt=""></li>
+                    <li><a href="#">Latset Features</a></li>
+                    <li><a href="#">Best Saftey</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header class="main">Top Notch Models</header>
+                  <ul class="mega-links">
+                    <li><a href="#">Kicker</a></li>
+                    <li><a href="#">Ultrq</a></li>
+                    <li><a href="#">Treakw</a></li>
+                    <li><a href="#">Sudarshq</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header class="main">CATEGORY</header>
+                  <ul class="mega-links">
+                    <li><a href="#">ULTRA SUV</a></li>
+                    <li><a href="#">PREMIUM </a></li>
+                    <li><a href="#">SEDAN</a></li>
+                    <li><a href="#">HATCHBACKS</a></li>
+                  </ul>
+                </div>
+                <div class="row">
+                  <header class="main">Service & Upgradation</header>
+                  <ul class="mega-links">
+                    <li><a href="#"><b>Test Drive</b></Offroad></a></li>
+                    <li><a href="#">Offroad Guide and Tips</a></li>
+                    <li><a href="#">Cleaning</a></li>
+                    <li><a href="#">Regular Maintainance </a></li>
+                    <li><a href="#">Add Accessories</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="main"><a href="#">Feedback</a></li>
+        </ul>
+        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+      </div>
+      
+    </nav>
+    <div class="floating-rectangle" id="floatingRectangle">
+      <p>Consult our Car Experts</p>
+      <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+      <p>Care & Service</p>
+      <hr style="height:2px;border-width:0;color:rgb(0, 0, 0);background-color:rgb(0, 0, 0)">
+      <p>Advanced Genuine Accessories</p>
+    </div>
+    <script>
+      window.addEventListener('scroll', function() {
+          const floatingRectangle = document.getElementById('floatingRectangle');
+          if (window.scrollY > 100) { // Adjust scroll value as needed
+              floatingRectangle.classList.add('visible');
+          } else {
+              floatingRectangle.classList.remove('visible');
+          }
+      });
+    </script>
+
+    <header class="section__container header__container">
+      <div class="header__content">
+        <span class="bg__blur"></span>
+        <span class="bg__blur header__blur"></span>
+        <h4>PRESENTING ALL NEW EV SERIES</h4>
+        <h1><span>AOT</span>JAY SHREE RAM</h1>
+        <p>
+         Get ready to reclaim your life with the all new vein charging machines , thrill your soul without impacting nature"s health & wealth
+        </p>
+        <p>Now every ride will be a fun ride ever!!</p>
+        <button class="btn">Reclaim Your Soul</button>
+      </div>
+      <div class="header__image">
+        <img src="oxide-grey-side-7.png" alt="header" />
+      </div>
+    </header>
+    <section class="section__container join__container">
+      <h2 class="section__header">WHY EV ?</h2>
+      <p class="section__subheader">
+        The best EV car offers long range, fast charging, advanced features, affordability, reliability, sleek design, and strong safety ratings.
+      </p>
+      <div class="join__image">
+        <img src="assets/join.jpg" alt="Join" />
+        <div class="join__grid">
+          <div class="join__card">
+            <span><i class="fa-solid fa-car"></i></span>
+            <div class="join__card__content">
+              <h4>Long Range:</h4>
+              <p>Provides extensive mileage on a single charge to reduce frequent recharging</p>
+            </div>
+          </div>
+          <div class="join__card">
+            <span><i class="fa-solid fa-car"></i></span>
+            <div class="join__card__content">
+              <h4>Fast Charging</h4>
+              <p>Minimizes downtime by quickly replenishing battery levels.</p>
+            </div>
+          </div>
+          <div class="join__card">
+            <span><i class="fa-solid fa-car"></i></span>
+            <div class="join__card__content">
+              <h4>Affordability</h4>
+              <p>Offers competitive pricing without compromising on essential features and performance.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+  
+    <p class="SUPERIOUR">
+      <h2 class="section__header">SUPERIOUR FEATURES EVER</h2>
+      <p class="section__subheader">We Never Compromise your Life ensuring unmatchable strong and smart cars</p></p>
+  <div class="djcontainer">
+        <div class="djcarousel">
+          <div class="djitem a">"No gas, no noise, just zoom!"</div>
+          <div class="djitem b">"Fuel prices up? My car runs on electricity!"</div>
+          <div class="djitem c">"0-100 in 13.8 seconds. Feel the electric rush!"</div>
+          <div class="djitem d">"Silent but powerful. Hear the future."</div>
+          <div class="djitem e">"Save the planet, one mile at a time."</div>
+          <div class="djitem f">"Charge in just 1.5hr!30000 charge cycles"</div>
+        </div>
+      </div>
+  
+      
+   
+    <div class="wrapper">
+      
+      <div class="container">
+          <input type="radio" name="slide" id="c1" checked>
+          <label for="c1" class="card">
+              <div class="row">
+                  <div class="icon">1</div>
+                  <div class="description">
+                      <h4>Autonomous Driving:</h4>
+                      <p>offer advanced self-driving capabilities, allowing the vehicle to navigate, park, and adjust speed based on traffic conditions without driver intervention.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c2" >
+          <label for="c2" class="card">
+              <div class="row">
+                  <div class="icon">2</div>
+                  <div class="description">
+                      <h4>Heads-Up Display (HUD):</h4>
+                      <p>project important information (like speed, navigation directions, and warnings) onto the windshield so drivers can view them without taking their eyes off the road.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c3" >
+          <label for="c3" class="card">
+              <div class="row">
+                  <div class="icon">3</div>
+                  <div class="description">
+                      <h4>Adaptive Cruise Control:</h4>
+                      <p>This system maintains a set speed but also adjusts to keep a safe distance from the vehicle ahead, even in stop-and-go traffic.
+
+                      </p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c4" >
+          <label for="c4" class="card">
+              <div class="row">
+                  <div class="icon">4</div>
+                  <div class="description">
+                      <h4>Night Vision:</h4>
+                      <p>Advanced night vision systems use infrared technology to detect pedestrians, animals, and other obstacles in low-light conditions, providing better visibility at night.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c5" >
+          <label for="c5" class="card">
+              <div class="row">
+                  <div class="icon">5</div>
+                  <div class="description">
+                      <h4>Voice-Activated Controls</h4>
+                      <p>Modern cars offer voice recognition technology that allows drivers to control navigation, media, phone calls, and more using spoken commands.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c6" >
+          <label for="c6" class="card">
+              <div class="row">
+                  <div class="icon">6</div>
+                  <div class="description">
+                      <h4>Smart Keyless Entry</h4>
+                      <p>This feature allows drivers to unlock and start their car without removing the key fob from their pocket or bag, often using proximity sensors to detect the key.</p>
+                  </div>
+              </div>
+          </label>
+          <input type="radio" name="slide" id="c7" >
+          <label for="c7" class="card">
+              <div class="row">
+                  <div class="icon">7</div>
+                  <div class="description">
+                      <h4>Panoramic Sunroof</h4>
+                      <p>A large, often extendable sunroof that provides an expansive view of the sky and enhances the feeling of openness inside the car.</p>
+                  </div>
+              </div>
+          </label>
+      </div>
+  </div>  
+
+    <section class="section__container explore__container">
+      <div class="explore__header">
+        <h2 class="section__header">EXPLORE MORE</h2>
+        <div class="explore__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="explore__grid">
+        <div class="explore__card">
+          <span><i class="fas fa-car fa-rotate-by" style="color: #ffffff; --fa-rotate-angle: 2deg;""></i></span>
+          <h4>Engine/Powertrain:</h4>
+          <p>
+            Determines power, efficiency, and performance.
+          </p>
+          <a href="#">Explore More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="fas fa-car fa-rotate-by" style="color: #ffffff; --fa-rotate-angle: 2deg;""></i></span>
+          <h4>Chassis/Body: </h4>
+          <p>
+            Affects safety, handling, and aesthetics.
+          </p>
+          <a href="#">Explore More <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="fas fa-car fa-rotate-by" style="color: #ffffff; --fa-rotate-angle: 2deg;""></i></span>
+          <h4>Interior/Comfort:</h4>
+          <p>
+            Encompasses cabin design, technology, and ergonomics
+          </p>
+          <a href="#">Explore More<i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore__card">
+          <span><i class="fas fa-car fa-rotate-by" style="color: #ffffff; --fa-rotate-angle: 2deg;"></i></span>
+          <h4>Safety Features: </h4>
+          <p>
+            Systems for occupant protection and accident prevention
+          </p>
+          <a href="#">Explore More <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="about">
+      <div class="class__image">
+        <span class="bg__blur"></span>
+        <img src="tata.webp" alt="class" class="class__img-1" />
+        <img src="tata.webp" alt="class" class="class__img-2" />
+      </div>
+      <div class="class__content" >
+        <h2 class="section__header" >THE FUTURE IS ELECTRIC</h2>
+        <p>
+          Discover our range of futuristic cars, designed to cater to your every driving need. From the eco-friendly base model to the fully autonomous top model, we offer advanced features like AI-driven powertrains, AR displays, and biometric security. Enjoy seamless connectivity, unparalleled safety, and customizable luxury. Choose the perfect model that matches your lifestyle and driving aspirations. Experience the future of driving today!
+        </p>
+        <button class="btn">QUICK TEST DRIVE</button>
+      </div>
+    </section>
+
+    
+    <div class="slider" id="carzone">
+      <!-- list Items -->
+      <div class="  list">
+          <div class="item active">
+              <img src="A.jpg">
+              <div class="content">
+                  <p>Hottest Hatchback</p>
+                  <h2>KICKER</h2>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                  </p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="B.jpg">
+              <div class="content">
+                  <p>BOLD SUV</p>
+                  <h2>ULTRQ</h2>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                  </p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="C.jpg">
+              <div class="content">
+                  <p>ULTRA SPORTS SUV COUPE </p>
+                  <h2>TREAKW</h2>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                  </p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="D.jpg">
+              <div class="content">
+                  <p>FEROSIOUS SEDAN</p>
+                  <h2>CONQUERO</h2>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                  </p>
+              </div>
+          </div>
+          <div class="item">
+              <img src="E.jpg">
+              <div class="content">
+                  <p>MID SIZE SUV</p>
+                  <h2>SUDHARSHQ</h2>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, neque?
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <!-- button arrows -->
+      <div class="arrows">
+          <button id="prev"><</button>
+          <button id="next">></button>
+      </div>
+      <!-- thumbnail -->
+      <div class="thumbnail">
+          <div class="item active">
+              <img src="A.jpg">
+              <div class="content">
+                  KICKER
+              </div>
+          </div>
+          <div class="item">
+              <img src="B.jpg">
+              <div class="content">
+                ULTRQ
+              </div>
+          </div>
+          <div class="item">
+              <img src="C.jpg">
+              <div class="content">
+                  TREAKW
+              </div>
+          </div>
+          <div class="item">
+              <img src="D.jpg">
+              <div class="content">
+                  CONQUERO
+              </div>
+          </div>
+          <div class="item">
+              <img src="E.jpg">
+              <div class="content">
+                  SUDHARSHQ
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="app.js"></script>
+  
+    <section class="section__container price__container">
+      <h2 class="section__header">CATEGORY WISE PRICING WITH FEATURES</h2>
+      <p class="section__subheader">
+        Our pricing plan comes with various car models, each tailored to cater to different preferences and driving aspirations.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Base Model</h4>
+            <h3>GLIDER</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Electric powertrain
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Basic driver-assist features
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard touchscreen display
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard key and remote entry
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              5 star Saftey rating Global NCAP
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Basic Smart Connectivity
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard plug-in charging
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard Seats
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Alloy whell
+            </p>
+          </div>
+          <button class="btn price__btn">Know More</button>
+        </div>
+        
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Budget Model</h4>
+            <h3>GLIDER PRO</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Electric powertrain
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Basic driver-assist features
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard touchscreen display
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard key and remote entry
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              5 star Saftey rating Global NCAP
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Basic Smart Connectivity
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard plug-in charging
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard Seats
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Alloy Wheel with Cover
+            </p>
+          </div>
+          <button class="btn price__btn">Know More</button>
+        </div>
+
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Mid Range</h4>
+            <h3>GLIDER PRO+</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Enhanced Electric powertrain
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Enhanced Basic driver-assist features
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Enhanced touchscreen display
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              keyless entry
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              5 star Saftey rating Global NCAP Enhanced saftey Features
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              apple car play Smart Connectivity
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Fast plug-in charging
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard Seats
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Dimond Cut Alloy Wheels
+            </p>
+          </div>
+          <button class="btn price__btn">Know More</button>
+        </div>
+
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Advanced Model</h4>
+            <h3>ADVENTURE</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+                Hybrid powertrain
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+               Partial Autonomous ADAS 2
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Interactive dashboard
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Enhanced keyless entry
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              5 star Saftey rating Global NCAP ,Advanced safety systems
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Advanced smart connectivity
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Enhanced fast charging full charge within 80 min
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Luxary Ventilated Seats
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Bigger Dimond Cut DArk Alloy Wheel
+            </p>
+          </div>
+          <button class="btn price__btn">Know More</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Value Pack</h4>
+            <h3>ADVENTURE PRO</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              AI-assisted electric powertrain
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              
+              Advanced autonomous driving 
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Semi-AR displays
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              5 star Saftey rating Global NCAP,Semi-advanced collision avoidance ADAS 2
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Enhanced smart connectivity
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Wireless charging, Apple and Android car play
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Standard plug-in charging
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Heated and ventilated luxury seats
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Bigger Dark red line Aerodynamic whells with broader wheel Base
+            </p>
+          </div>
+          <button class="btn price__btn">Know More</button>
+        </div>
+        <div class="price__card">
+          <div class="price__card__content">
+            <h4>Top Variant</h4>
+            <h3>ADVENTURE PRO+</h3>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              AI-driven electric powertrain
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Full autonomous driving
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Advanced AR Display
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Biometric Security
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              5 star Saftey rating Global NCAP,360-degree sensors and adaptive collision avoidance ADAS 3
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Complete smart ecosystem integration
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Solar and wireless charging
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Customizable, eco-friendly luxury seats
+
+            </p>
+            <p>
+              <i class="ri-checkbox-circle-line"></i>
+              Bigger Dark red line Aerodynamic whells with broader wheel Base
+            </p>
+          </div>
+          
+          <button class="btn price__btn">Know More</button>
+        </div>
+      </div>
+    </section>
+    <h2 class="section__header" class="timet">GET READY TO UNVIEL THE ULTIMATE <p id="pink">BEAST</p></h2>
+    <p id="demo" class="timer"></p>
+    <script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 19, 2050 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+  
+    
+    
+
+    <section class="review">
+      <div class="section__container review__container">
+        <span><i class="ri-double-quotes-r"></i></span>
+        <div class="review__content">
+          <h4>MEMBER REVIEW</h4>
+          <p>
+            "I couldn't be happier with my new futuristic car! The AI-driven powertrain is incredibly smooth, and the full autonomous driving feature has made my commute stress-free. The AR displays are a game-changer, and the biometric security adds an extra layer of peace of mind. This car truly combines luxury, technology, and sustainability in one amazing package. Highly recommend!"
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-fill"></i></span>
+          </div>
+           <div class="main_div">
+    
+          
+          <div class="review__footer">
+            <div class="review__member">
+              <img src="1.png" alt="member" />
+              <div class="review__member__details">
+                <h4>Anna Bhai</h4>
+                <p> Senior Software Developer</p>
+                <p>Bengaluru</p>
+              </div>
+            </div>
+            <div class="review__nav">
+              <span><i class="ri-arrow-left-line"></i></span>
+              <span><i class="ri-arrow-right-line"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+   
+    
+
+
+  
+    
+
+    <footer class="section__container footer__container">
+      <span class="bg__blur"></span>
+      <span class="bg__blur footer__blur"></span>
+      <div class="footer__col">
+        <div class="footer__logo"><img src="1.png" alt="logo" /></div>
+        <p>
+          Explore our futuristic cars, from eco-friendly bases to fully autonomous top models. Enjoy AI powertrains, AR displays, biometric security, and customizable luxury. Find your perfect ride and drive into the future today!
+        </p>
+        <div class="footer__socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Franchise</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+        <a href="#">Certifications</a>
+      </div>
+      <div class="footer__col">
+        <h4>About Us</h4>
+        <a href="#">Timeline</a>
+        <a href="#">Future Projects</a>
+        <a href="#">Join US</a>
+      </div>
+      <div class="footer__col">
+        <h4>Contact</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">EMI Calculator</a>
+        <a href="#">Nearest Showroom/ workshop</a>
+      </div>
+      
+    </footer>
+    <div class="footer__bar">
+      Copyright © 2024 
+    </div>
+    
+  </body>
+</html>
